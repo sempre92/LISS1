@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesjonalne usługi z zakresu controllingu finansowego dla firm.">
+    <title>Controlling Finansowy - Profesjonalne Wsparcie dla Twojej Firmy</title>
+    <style>
+        /* Reset stylów */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        /* Nagłówek i hero */
+        header {
+            background-color: #003f5c;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1600px;
+            margin: auto;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 10px auto;
+        }
+
+        .hero {
+            background: url('https://raw.githubusercontent.com/sempre92/LISS/refs/heads/main/obrazTest_converted.webp') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+            max-width: 1600px;
+            margin: auto;
+        }
+
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-button {
+            background-color: #00796b;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #004d40;
+        }
+
+        /* Nawigacja */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d40;
+            padding: 1rem 0;
+            max-width: 1600px;
+            margin: auto;
+        }
+
+        nav a {
+            color: #ffffff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00796b;
+        }
+
+        /* Główna zawartość */
+        .container {
+            width: 75%;
+            max-width: 1600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        section h2 {
+            color: #003f5c;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Styl dla sekcji usług z obrazem */
+        .services-content {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .services ul {
+            flex: 1;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .services ul li {
+            font-size: 1.1rem;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #ddd;
+            color: #555;
+        }
+
+        .service-image {
+            flex: 1;
+            position: relative;
+            height: auto;
+        }
+
+        .service-image img {
+            width: 100%;
+            height: 100%; /* Dopasowanie do pełnej wysokości listy */
+            object-fit: cover; /* Zachowaj proporcje i wypełnij kontener */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #666;
+        }
+
+        /* Sekcja kontaktu */
+        .contact-info {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .contact-info a {
+            color: #00796b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            color: #004d40;
+            text-decoration: underline;
+        }
+
+        /* Stopka */
+        footer {
+            background-color: #003f5c;
+            color: #ffffff;
+            text-align: center;
+            padding: 1.5rem 0;
+            font-size: 0.9rem;
+            max-width: 1600px;
+            margin: auto;
+        }
+
+        /* Responsywność */
+        @media (max-width: 768px) {
+            header h1, .hero h2 {
+                font-size: 2rem;
+            }
+
+            header p, .hero p, .contact-info, .services ul li {
+                font-size: 1rem;
+            }
+
+            .container {
+                width: 90%;
+            }
+
+            .services-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://raw.githubusercontent.com/sempre92/LISS/refs/heads/main/images/logo.webp" alt="LISS Consulting Logo">
+    <h1>LISS Consulting</h1>
+    <p>Profesjonalne wsparcie finansowe i controlling dla Twojej firmy.</p>
+</header>
+
+<nav>
+    <a href="#services">Usługi</a>
+    <a href="#about">O nas</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="hero">
+    <h2>Osiągnij sukces finansowy z naszym wsparciem</h2>
+    <p>Specjalizujemy się w usługach controllingu finansowego, pomagając firmom w optymalizacji procesów i osiąganiu lepszych wyników finansowych.</p>
+    <a href="#contact" class="cta-button">Skontaktuj się z nami</a>
+</div>
+
+<div class="container">
+    <section id="services" class="services">
+        <h2>Nasze Usługi</h2>
+        <div class="services-content">
+            <ul>
+                <li>Dyrektor Finansowy na godziny</li>
+                <li>Budżetowanie i prognozowanie finansowe</li>
+                <li>Analiza kosztów i rentowności</li>
+                <li>Monitoring przepływów pieniężnych</li>
+                <li>Planowanie strategiczne i optymalizacja procesów</li>
+            </ul>
+            <div class="service-image">
+                <img src="https://raw.githubusercontent.com/sempre92/LISS/refs/heads/main/t%C5%82o.webp" alt="Obraz usług finansowych">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>O Nas</h2>
+        <p>Jesteśmy zespołem doświadczonych specjalistów finansowych, którzy pomagają firmom skutecznie zarządzać finansami i rozwijać się. Nasza misja to dostarczanie narzędzi i strategii wspierających zrównoważony wzrost i stabilność finansową.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontakt</h2>
+        <p class="contact-info">Masz pytania? Skontaktuj się z nami:</p>
+        <p class="contact-info">Email: <a href="mailto:kontakt@lissconsulting.pl">kontakt@lissconsulting.pl</a></p>
+        <p class="contact-info">Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2023 LISS Consulting. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
